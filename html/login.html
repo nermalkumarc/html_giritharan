@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>PY-Coffee</title>
+        <link rel="stylesheet" href="myStyle.css">
+        <script>
+	function lgoin()
+		{
+
+		var x = document.getElementById('usr').value;
+		var y = document.getElementById('pas').value;
+
+		if(x = "abc" && y ="cba")
+		  {
+
+		         window.location="home.html";
+		  }
+		else
+		{
+			alert("Please check userName & Password   OR   SignUp ")
+		}
+
+	      }
+		
+</script>
+    </head>
+    <body>
+        <header><nav>
+            <img id="logo"src="logo.jpg">
+            <span id="navSpan"><a href="#">Home</a></span>
+            <span id="navSpan"><a href="#">About Us</a></span>
+            <span id="navSpan"><a href="#">Contact Us</a></span>
+ 	    <span id="navSpan"><a href="reg.html">SignUp</a></span>
+        </nav>
+    </header>
+	<br>
+<br>
+<br>
+<br>
+	<div id="loginTbl">
+	 <table>
+	<tr>	<td><label>UserName</label></td>
+		<td><input type="text" id="usr" placeholder="UserName"></td>
+	</tr>
+	<tr>	<td><label>LastNameName</label></td>
+		<td><input type="password" id="pas" placeholder="password"></td>
+	</tr>
+	<tr>	<td><input id="lobtn" onclick="lgoin()" type="submit" value="Login"></td>
+		<td><input id="lobtn" type="Reset" value="Reset"></td>
+	</tr>
+
+	</table>
+
+	</div>
+       
+    </body>
+</html>

@@ -1,0 +1,134 @@
+body{
+    margin: 2px;
+    padding: 2px;
+
+}
+nav{
+    border:1px solid brown;
+opacity:0.8;
+background-color:white;
+
+width:100%;
+}
+#logo{
+    width: 90px;
+    height: 46px;
+vertical-align: bottom;
+}
+#navSpan{
+    font-size: 25px;
+    font-family: Century Gothic;
+    padding-left: 186px;
+}
+a{
+    text-decoration: none;
+color:black;
+}
+table{
+
+      padding: 12px;
+color:brown;
+font-family:Century Gothic;
+}
+td{
+    padding: 17px;
+}
+#loginTbl{
+border:1px solid black;
+width:50%;
+    margin-left: 310px;
+
+    width: 25%;
+    margin-left: 518px;
+}
+
+#reg{
+
+border:1px solid black;
+    width: 50%;
+    margin-top: 95px;
+    margin-left: 319px;
+}
+
+#hmain{
+margin-top:30px;
+
+}
+
+#firstImg{
+max-width:100%;
+max-height:100%;
+}
+#hdivone{
+width:50%;
+heigth:450px;
+display: inline-block;
+}
+#hone{
+color: brown;
+padding-left: 645px;
+
+}
+#two{
+width:45%;
+height:auto;
+display:inline-block;
+vertical-align:top;
+text-align: justify;
+margin-left:5px;
+padding-left: 28px;
+color:grey;
+}
+
+#three{
+text-align: justify;
+font-family:Copperplate Gothic;
+color:gray;
+
+}
+
+footer{
+border:1px solid brown;
+    padding: 10px;
+    color: brown;
+
+}
+footer label{
+    padding-left: 500px;
+}
+footer img{
+  padding-left: 50px;
+}
+form{
+background-image:url("three.jpg");
+}
+#sub{
+    width: 96px;
+
+}
+#sub:hover{
+color: white;
+background-color:brown;
+}
+#lobtn:hover{
+color: white;
+background-color:brown;
+}
+#lobtn{
+   width: 96px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
